@@ -1,0 +1,142 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(gk.jpg);
+    background-repeat: no-repeat;    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+}
+
+.bungkus {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.dalam1 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dalam2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.river {
+    color: white;
+    font-weight: 600;
+}
+
+.side {
+    color: crimson;
+    padding-left: 3px;
+    font-weight: 600;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.actif {
+    background-color: crimson;
+    color: white;
+    padding: 6px;
+}
+
+.actif:hover {
+    color: black !important;
+}
+
+.input {
+    width: 100px;
+    height: 18px;
+}
+
+.button {
+    height: 18px;
+
+}
+
+.divriver {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.profile_r {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+}
+
+.profile_s {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: crimson;
+    padding-left: 3px;
+    font-weight: 600;
+}
+
+.article1 {
+background-color: rgba(34, 33, 33, 0.5);
+}
+
+.para {
+    padding-left: 20px;
+    width: ;
+    height: ;
+}
+
+h4 {
+    padding: 20px;
+    color: white;
+}
+
+p {
+    padding: 20px;
+    color: white;
+}
